@@ -2,7 +2,7 @@
 
 A cheat sheet for PowerShell and Windows commands.
 
-# Help
+## Help
 
 ```powershell
 Get-Help Foo-Bar          # Get help on the 'Foo-Bar' command.
@@ -12,7 +12,7 @@ Get-Command *foo*         # Get all commands containing 'foo'.
 Get-Command -Module Foo   # Get all commands from module 'Foo'.
 ```
 
-# Modules
+## Modules
 
 ```powershell
 Get-Module -ListAvailable # List all modules.
@@ -20,15 +20,21 @@ Find-Module *foo*         # Find all modules containing 'foo'.
 Install-Module Foo        # Install module 'foo'.
 ```
 
-# Variables
+## Variables
 
 ```powershell
 $LastExitCode             # The exit code from the last exited process.
 $PSVersionTable           # PowerShell and OS version.
 ```
 
-# Networking
+## File System
 
 ```powershell
-netstat -aon | findstr "5000" # Find process ID using port                    |
+pwd                       # Get the current directory path.
+```
+
+## Networking
+
+```powershell
+netstat -aon | findstr "5000"   # Find process ID using port.
 ```
