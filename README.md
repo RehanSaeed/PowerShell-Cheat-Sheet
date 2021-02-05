@@ -18,6 +18,8 @@ Get-Command -Module Foo   # Get all commands from module 'Foo'.
 Get-Module -ListAvailable # List all modules.
 Find-Module *foo*         # Find all modules containing 'foo'.
 Install-Module Foo        # Install module 'foo'.
+Uninstall-Module Foo      # Uninstall module 'foo'.
+Update-Module Foo         # Update module 'foo'.
 ```
 
 ## Variables
