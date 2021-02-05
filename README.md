@@ -29,6 +29,6 @@ A cheat sheet for PowerShell and Windows commands.
 
 # Networking
 
-| Variable                        | Description                                   |
-| ------------------------------- | --------------------------------------------- |
-| `netstat -aon | findstr "5000"` | Find process ID using port                    |
+| Variable                         | Description                                   |
+| -------------------------------- | --------------------------------------------- |
+| `netstat -aon \| findstr "5000"` | Find process ID using port                    |
