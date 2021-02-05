@@ -2,9 +2,6 @@
 
 A cheat sheet for PowerShell and Windows commands.
 
-Find process ID using port
-`netstat -aon | findstr "5000"`
-
 # Help
 
 | Command                    | Description                                    |
@@ -25,4 +22,13 @@ Find process ID using port
 
 # Variables
 
-$PSVersionTable PowerShell and OS version
+| Variable                    | Description                                   |
+| --------------------------- | --------------------------------------------- |
+| `$LastExitCode`             | The exit code from the last exited process    |
+| `$PSVersionTable`           | PowerShell and OS version                     |
+
+# Networking
+
+| Variable                        | Description                                   |
+| ------------------------------- | --------------------------------------------- |
+| `netstat -aon | findstr "5000"` | Find process ID using port                    |
